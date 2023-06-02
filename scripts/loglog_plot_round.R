@@ -15,11 +15,9 @@ args$seed <- 18L
 #
 # Load data----
 args$infile.data <- file.path( "data",'COVIMOD', "COVIMOD_data_2022-03-21.RData") # get the gender and id of the respondents
-args$pop <- file.path("data",'COVIMOD', "germany-population-2011.csv")
 args$prj.dir <- here::here()
 args$out.dir <- here::here()
 load(file.path(args$prj.dir, args$infile.data))
-dt.pop <- as.data.table(read.csv(file.path(args$prj.dir, args$pop)))
 
 # load the participants data
 dpart <- as.data.table(readRDS(file = file.path(args$prj.dir, 'data', 'COVIMOD', 'part.rds')))
