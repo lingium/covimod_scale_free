@@ -1,0 +1,22 @@
+{
+  "jupyter.interactiveWindow.textEditor.executeSelection": true,
+  "python.analysis.extraPaths": [
+    "./src/python/"
+  ],
+  "[stan]": {
+    "editor.tabSize": 2
+  },
+  "[cpp]": {
+    "editor.tabSize": 2
+  },
+  "[json]": {
+    "editor.tabSize": 2
+  },
+  "[r]": {
+    "editor.tabSize": 2,
+    "editor.wordSeparators": "`-$~!@#%^&*()=+[{]}\\|;:'\",<>/?"
+  },
+  "[python]": {
+    "editor.tabSize": 4
+  },
+}
