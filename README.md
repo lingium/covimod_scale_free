@@ -12,6 +12,7 @@ covimod_scale_free
 ├── data
 │   ├── covimod
 │   ├── derived
+│   ├── output
 │   └── population
 ├── figures
 ├── model
